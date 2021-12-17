@@ -13,6 +13,7 @@ This project is part of this course at Udemy https://www.udemy.com/course/spring
 6) @EqualsAndHashCode
 7) @OneToMany
 8) @ManyToOne
+9) @NoArgsConstructor
 
 ### Tools:
 1) Lombok
