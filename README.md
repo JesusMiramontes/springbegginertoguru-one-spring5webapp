@@ -7,6 +7,7 @@ This project is part of this course at Udemy https://www.udemy.com/course/spring
 ### Topics:
 1) POJOs
 1) JPA Entity
+1) @ManyToMany Relationships
 
 ### Tools:
 1) Lombok

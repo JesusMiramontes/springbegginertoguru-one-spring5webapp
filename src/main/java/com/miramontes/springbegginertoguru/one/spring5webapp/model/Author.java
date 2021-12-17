@@ -2,10 +2,7 @@ package com.miramontes.springbegginertoguru.one.spring5webapp.model;
 
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Set;
 
 @Data
@@ -17,6 +14,8 @@ public class Author {
     private Long id;
     private String firstName;
     private String lastName;
+
+    @ManyToMany(mappedBy = "authors")
     private Set<Book> books;
 
     public Author(String firstName, String lastName, Set<Book> books) {
