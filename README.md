@@ -6,11 +6,13 @@ This project is part of this course at Udemy https://www.udemy.com/course/spring
   
 ### Topics:
 1) POJOs
-1) JPA Entity
-1) @ManyToMany Relationships
-1) CrudRepository
-1) CommandLineRunner
-1) @EqualsAndHashCode
+2) JPA Entity
+3) @ManyToMany Relationships
+4) CrudRepository
+5) CommandLineRunner
+6) @EqualsAndHashCode
+7) @OneToMany
+8) @ManyToOne
 
 ### Tools:
 1) Lombok
