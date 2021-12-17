@@ -2,6 +2,7 @@ package com.miramontes.springbegginertoguru.one.spring5webapp.model;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -11,6 +12,7 @@ import java.util.Set;
 @Data
 // Implemented to avoid circular dependency.
 @EqualsAndHashCode(exclude="books")
+@NoArgsConstructor
 public class Author {
 
     @Id
