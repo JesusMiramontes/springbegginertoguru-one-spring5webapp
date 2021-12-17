@@ -1,12 +1,16 @@
 package com.miramontes.springbegginertoguru.one.spring5webapp.model;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import javax.persistence.*;
+import java.util.HashSet;
 import java.util.Set;
 
-@Data
 @Entity
+@Data
+// Implemented to avoid circular dependency.
+@EqualsAndHashCode(exclude="books")
 public class Author {
 
     @Id
@@ -16,11 +20,10 @@ public class Author {
     private String lastName;
 
     @ManyToMany(mappedBy = "authors")
-    private Set<Book> books;
+    private Set<Book> books = new HashSet<>();
 
-    public Author(String firstName, String lastName, Set<Book> books) {
+    public Author(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.books = books;
     }
 }
