@@ -6,6 +6,7 @@ This project is part of this course at Udemy https://www.udemy.com/course/spring
   
 ### Topics:
 1) POJOs
+1) JPA Entity
 
 ### Tools:
 1) Lombok
