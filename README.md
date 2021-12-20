@@ -16,6 +16,7 @@ This project is part of this course at Udemy https://www.udemy.com/course/spring
 9) @NoArgsConstructor
 10) Spring MVC Controller. @Controller
 11) @RequestMapping
+12) Returning info to the view using Model.
 
 ### Tools:
 1) Lombok
