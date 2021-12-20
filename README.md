@@ -14,6 +14,8 @@ This project is part of this course at Udemy https://www.udemy.com/course/spring
 7) @OneToMany
 8) @ManyToOne
 9) @NoArgsConstructor
+10) Spring MVC Controller. @Controller
+11) @RequestMapping
 
 ### Tools:
 1) Lombok
