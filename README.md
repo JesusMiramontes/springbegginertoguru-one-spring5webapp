@@ -17,3 +17,4 @@ This project is part of this course at Udemy https://www.udemy.com/course/spring
 
 ### Tools:
 1) Lombok
+2) H2 Console.
